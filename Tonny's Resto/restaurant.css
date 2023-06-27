@@ -1,0 +1,147 @@
+/* Our Story Styles */
+.ourStory__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.ourStory__title,
+.ourGoals__title {
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: var(--black-1);
+	margin-bottom: 1rem;
+}
+.ourStory__subtitle {
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: var(--black-1);
+	margin-bottom: 2rem;
+}
+.ourStory__text,
+.ourGoals__text {
+	font-size: 1.4rem;
+	line-height: 1.4em;
+	color: var(--black-2);
+}
+@media only screen and (min-width: 768px) {
+	.ourStory__wrapper {
+		flex-direction: row;
+		gap: 3rem;
+	}
+	.ourStory__img,
+	.ourStory__info {
+		flex: 1;
+	}
+	.ourStory__title,
+	.ourGoals__title {
+		font-size: 3.6rem;
+	}
+	.ourStory__subtitle {
+		font-size: 1.8rem;
+	}
+	.ourStory__text,
+	.ourGoals__text {
+		font-size: 1.8rem;
+		max-width: 800px;
+	}
+}
+
+/* Our Goals Styles */
+
+.ourGoals__info {
+	text-align: left;
+	margin-bottom: 5rem;
+}
+.ourGoals__imgs__wrapper img {
+	object-fit: cover;
+}
+.ourGoals__imgs__wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row: auto;
+	gap: 1rem;
+}
+.ourGoals__img1 {
+	grid-row: 1/3;
+}
+@media only screen and (min-width: 768px) {
+	.ourGoals__info {
+		text-align: center;
+	}
+	.ourGoals__imgs__wrapper {
+		gap: 2rem;
+	}
+	.ourGoals__text {
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+.restonav{
+    height: 50px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.restonav a{
+    align-items: center;
+    margin-left: 10vh;
+    text-decoration: none;
+    color: black;
+}
+img{
+    width: 68vh;
+    height: 33vh;
+    margin-top:40px;
+    margin-left: 25px;
+}
+.boximage1{
+    background: GRAY;
+    width: 75vh;
+    height: 55vh;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left:10vh ;
+}
+.boximage2{
+    background: gray;
+    width: 75vh;
+    height: 58vh;
+    border-radius: 5px;
+    margin-left: 98vh;
+    margin-top: -57vh;
+}
+.btn-moreInfo{
+    height: 20px;
+    width: 15vh		;
+    background: rgb(1, 1, 12);
+    margin-right:55vh ;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 3px;
+    text-decoration: none;
+	margin-top: 3vh;
+	margin-left: 15vh;
+}
+.btn-moreInfo a :hover{
+    background: red;
+    width:25px ;
+    height:20px ;
+}
+marquee{
+    background: black;
+    color: #fff;
+    font-size: 20px;
+}
+h3{
+	font-size: 20px;
+	color: white;
+	margin-left: 25vh;
+}
